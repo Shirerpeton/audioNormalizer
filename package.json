@@ -1,0 +1,19 @@
+{
+  "name": "audionormalizer",
+  "version": "1.0.0",
+  "description": "Simple script for batch audio normalization of mp3 files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shirerpeton",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
